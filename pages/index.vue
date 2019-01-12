@@ -1,14 +1,20 @@
 <template>
-  <TopNavigation/>
+  <div id="home-page">
+    <TopNavigation/>
+    <TheFeature/>
+  </div>
 </template>
 
 <script>
-import TopNavigation from "~/components/global/TopNavigation.vue";
-// var TopNavigation = require("./../components/TopNavigation.vue");
+import TopNavigation from "~/components/global/TopNavigation";
+import TheFeature from "~/components/home/TheFeature";
 
 export default {
   name: "home",
-  components: { TopNavigation }
+  components: {
+    TopNavigation,
+    TheFeature
+  }
 };
 </script>
 
