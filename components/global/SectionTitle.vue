@@ -31,7 +31,7 @@ export default {
 
 .st-line {
   background-color: orange;
-  height: 4px;
+  height: 3px;
   width: 100%;
 }
 </style>

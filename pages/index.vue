@@ -4,6 +4,7 @@
     <TheFeature/>
     <TheOverview/>
     <SectionTitle title="The Model"></SectionTitle>
+    <TheModel/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import TopNavigation from "~/components/global/TopNavigation";
 import SectionTitle from "~/components/global/SectionTitle";
 import TheFeature from "~/components/home/TheFeature";
 import TheOverview from "~/components/home/TheOverview";
+import TheModel from "~/components/home/TheModel";
 
 export default {
   name: "home",
@@ -19,7 +21,8 @@ export default {
     TopNavigation,
     TheFeature,
     TheOverview,
-    SectionTitle
+    SectionTitle,
+    TheModel
   }
 };
 </script>
