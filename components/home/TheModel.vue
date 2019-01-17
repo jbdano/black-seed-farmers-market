@@ -8,27 +8,27 @@
               <i class="far fa-handshake"></i>
               <h4>THE SOURCE</h4>
             </header>
-            <div
-              class="ms-card-main"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quae, autem maxime doloremque laboriosam dolor dolorem nostrum, amet natus provident tempora velit sunt voluptate aspernatur dolores accusamus delectus cumque ex?</div>
+            <div class="ms-card-main">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quae, autem maxime doloremque laboriosam dolor dolorem nostrum, amet natus provident tempora velit sunt voluptate aspernatur dolores accusamus delectus cumque ex?</p>
+            </div>
           </article>
           <article class="ms-card">
             <header>
               <i class="fa fa-shopping-cart"></i>
               <h4>THE EXPERIENCE</h4>
             </header>
-            <div
-              class="ms-card-main"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Et at labore porro quaerat, eos ad, omnis consectetur itaque earum nihil aut dicta eius, soluta inventore excepturi debitis odio totam quidem?</div>
+            <div class="ms-card-main">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et at labore porro quaerat, eos ad, omnis consectetur itaque earum nihil aut dicta eius, soluta inventore excepturi debitis odio totam quidem?</p>
+            </div>
           </article>
           <article class="ms-card">
             <header>
               <i class="fas fa-users"></i>
               <h4>THE COMMUNITY IMPACT</h4>
             </header>
-            <div
-              class="ms-card-main"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab eius, exercitationem, voluptates culpa quia temporibus obcaecati similique consequuntur aut quae harum sint omnis doloremque! Sapiente optio ipsam laborum. Illo!</div>
+            <div class="ms-card-main">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab eius, exercitationem, voluptates culpa quia temporibus obcaecati similique consequuntur aut quae harum sint omnis doloremque! Sapiente optio ipsam laborum. Illo!</p>
+            </div>
           </article>
         </div>
       </div>
