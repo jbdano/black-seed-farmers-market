@@ -1,11 +1,16 @@
 <template>
   <div id="home-page">
-    <TopNavigation/>
-    <TheFeature/>
+    <Feature
+      src="/img/stock-photo-lg.jpeg"
+      title="Visit Us"
+      subtitle="During the month of November to add that special, local something to your Thanksgiving meal."
+    />
     <TheOverview/>
     <SectionTitle title="The Model"></SectionTitle>
     <TheModel/>
     <TheFooter/>
+    <!-- Put last to resolve z-index sorting -->
+    <TopNavigation/>
   </div>
 </template>
 
@@ -13,7 +18,7 @@
 import TopNavigation from "~/components/global/TopNavigation";
 import SectionTitle from "~/components/global/SectionTitle";
 import TheFooter from "~/components/global/TheFooter";
-import TheFeature from "~/components/home/TheFeature";
+import Feature from "~/components/global/Feature";
 import TheOverview from "~/components/home/TheOverview";
 import TheModel from "~/components/home/TheModel";
 
@@ -21,7 +26,7 @@ export default {
   name: "home",
   components: {
     TopNavigation,
-    TheFeature,
+    Feature,
     TheOverview,
     SectionTitle,
     TheModel,

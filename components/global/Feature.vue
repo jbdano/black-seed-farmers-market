@@ -1,11 +1,11 @@
 <template>
   <div id="feature-section">
-    <img src="/img/stock-photo-lg.jpeg" class="fs-feature-img">
+    <img v-bind:src="src" class="fs-feature-img">
     <div class="fs-feature-filter"></div>
     <div class="fs-content-block">
       <div class="theme-container">
-        <h1>Visit Us</h1>
-        <p>During the month of November to add that special, local something to your Thanksgiving meal.</p>
+        <h1 v-text="title" class="fs-title"></h1>
+        <h4 v-text="subtitle" class="fs-subtitle"></h4>
       </div>
     </div>
   </div>
@@ -13,7 +13,8 @@
 
 <script>
 export default {
-  name: "TheFeature"
+  name: "Feature",
+  props: ["src", "title", "subtitle"]
 };
 </script>
 
@@ -49,5 +50,10 @@ export default {
   width: 100%;
   bottom: 0;
   color: white;
+}
+
+.fs-subtitle {
+  margin-bottom: 40px;
+  font-weight: normal;
 }
 </style>

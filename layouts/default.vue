@@ -8,6 +8,9 @@ export default {};
 
 
 <style lang="scss">
+body {
+  margin-top: 56.8px;
+}
 .theme-container {
   margin: 0 20px;
 
