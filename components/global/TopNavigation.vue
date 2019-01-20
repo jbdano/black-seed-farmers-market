@@ -1,7 +1,7 @@
 <template>
   <div class="topnav" id="TopNavigation">
     <nuxt-link to="/" class="tn-home-link tn-main-link"></nuxt-link>
-    <nuxt-link to="/market" class="tn-market-link tn-main-link active">Market</nuxt-link>
+    <nuxt-link to="/market" class="tn-market-link tn-main-link">Market</nuxt-link>
     <nuxt-link to="/delivery" class="tn-delivery-link tn-main-link">Delivery</nuxt-link>
     <nuxt-link to="/membership" class="tn-membership-link tn-main-link">Membership</nuxt-link>
     <nuxt-link to="/about" class="tn-about-link tn-main-link">About</nuxt-link>
@@ -13,7 +13,7 @@
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" v-on:click="closeNav">&times;</a>
-      <nuxt-link to="/market" class="tn-market-link active">Market</nuxt-link>
+      <nuxt-link to="/market" class="tn-market-link">Market</nuxt-link>
       <nuxt-link to="/delivery" class="tn-delivery-link">Delivery</nuxt-link>
       <nuxt-link to="/membership" class="tn-membership-link">Membership</nuxt-link>
       <nuxt-link to="/about" class="tn-about-link">About</nuxt-link>
@@ -26,6 +26,7 @@
 <script>
 export default {
   name: "TopNavigation",
+  props: ["activepage"],
   methods: {
     toggleResponsiveNav: function(event) {
       var x = document.getElementById("TopNavigation");
@@ -76,7 +77,7 @@ export default {
     padding: calc(56.8px / 2);
   }
 
-  &.active {
+  &.nuxt-link-active {
     color: orange;
   }
 
@@ -150,6 +151,10 @@ export default {
   display: block;
   transition: 0.3s;
   white-space: nowrap;
+
+  &.nuxt-link-active {
+    color: orange;
+  }
 }
 
 /* When you mouse over the navigation links, change their color */

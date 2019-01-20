@@ -3,7 +3,7 @@
     <div class="theme-container">
       <div class="st-flexbox">
         <h3 class="st-text" v-text="title"></h3>
-        <div class="st-line"></div>
+        <div class="st-line" v-bind:style="{ 'background-color': lineColor }"></div>
       </div>
     </div>
   </div>
@@ -12,7 +12,7 @@
 <script>
 export default {
   name: "SectionTitle",
-  props: ["title"]
+  props: ["title", "lineColor"]
 };
 </script>
 
@@ -27,10 +27,10 @@ export default {
 .st-text {
   white-space: nowrap;
   margin: 0 25px 0 0;
+  font-weight: bold;
 }
 
 .st-line {
-  background-color: orange;
   height: 3px;
   width: 100%;
 }
