@@ -1,7 +1,7 @@
 <template>
   <div id="market-page">
     <Feature
-      src="img/stock-photo-lg.jpeg"
+      src="/img/stock-photo-lg.jpeg"
       title="Visit Us"
       subtitle="During the month of November to add that special, local something to your Thanksgiving meal."
     />

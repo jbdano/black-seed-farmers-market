@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="vu-block vu-block-img">
-          <img src="img/stock-photo-lg.jpeg" alt>
+          <img src="/img/stock-photo-lg.jpeg" alt>
         </div>
       </div>
     </div>

@@ -1,13 +1,15 @@
 <template>
   <div id="home-page">
     <Feature
-      src="img/stock-photo-lg.jpeg"
+      src="/img/stock-photo-lg.jpeg"
       title="Market"
       subtitle="Come visit us on your next trip into Worcester."
     />
     <SectionTitle title="VISIT US" lineColor="rgb(118, 53, 104)"/>
     <VisitUs/>
     <SectionTitle title="MARKET" lineColor="orange"/>
+    <Market/>
+    <SectionTitle title="FEDERAL PROGRAMS" lineColor="rgb(118, 53, 104)"/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->
     <TopNavigation activepage="market"/>
@@ -21,6 +23,7 @@ import TheFooter from "~/components/global/TheFooter";
 import Feature from "~/components/global/Feature";
 
 import VisitUs from "~/components/market/VisitUs";
+import Market from "~/components/market/Market";
 
 export default {
   name: "market",
@@ -29,6 +32,7 @@ export default {
     Feature,
     SectionTitle,
     VisitUs,
+    Market,
     TheFooter
   }
 };
