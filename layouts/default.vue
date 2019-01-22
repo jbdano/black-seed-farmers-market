@@ -10,6 +10,7 @@ export default {};
 <style lang="scss">
 body {
   margin-top: 56.8px;
+  font-size: 17px;
 }
 .theme-container {
   margin: 0 20px;
