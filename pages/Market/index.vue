@@ -11,6 +11,8 @@
     <Market/>
     <SectionTitle title="FEDERAL PROGRAMS" lineColor="rgb(118, 53, 104)"/>
     <FederalPrograms/>
+    <SectionTitle title="MERCHANDISE" lineColor="orange"/>
+    <Merchandise/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->
     <TopNavigation activepage="market"/>
@@ -26,6 +28,7 @@ import Feature from "~/components/global/Feature";
 import VisitUs from "~/components/market/VisitUs";
 import Market from "~/components/market/Market";
 import FederalPrograms from "~/components/market/FederalPrograms";
+import Merchandise from "~/components/market/Merchandise";
 
 export default {
   name: "market",
@@ -36,6 +39,7 @@ export default {
     VisitUs,
     Market,
     FederalPrograms,
+    Merchandise,
     TheFooter
   }
 };

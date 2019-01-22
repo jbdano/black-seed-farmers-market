@@ -1,7 +1,7 @@
 <template>
   <div id="federal-programs">
     <div class="theme-container">
-      <p>Black Seed accepts a number of federally-funded programs to help you and your family gain access to nutritious food.</p>
+      <h5>Black Seed accepts a number of federally-funded programs to help you and your family gain access to nutritious food.</h5>
       <div class="fp-flexbox">
         <article class="fp-card">
           <p class="fp-card-title">Suppliemental Nutrition Assistance Program (SNAP)</p>

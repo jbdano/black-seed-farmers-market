@@ -12,6 +12,7 @@ body {
   margin-top: 56.8px;
   font-size: 17px;
 }
+
 .theme-container {
   margin: 0 20px;
 
@@ -59,5 +60,21 @@ button {
 a:hover {
   text-decoration-line: underline;
   text-decoration-style: dotted;
+}
+
+// BUTTONS
+.theme-primary-btn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: orange;
+  padding: 15px 50px;
+  margin: 30px 0;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.2em;
+  &:hover {
+    color: white;
+  }
 }
 </style>
