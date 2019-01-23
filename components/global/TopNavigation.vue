@@ -27,7 +27,6 @@
 <script>
 export default {
   name: "TopNavigation",
-  props: ["activepage"],
   methods: {
     toggleResponsiveNav: function(event) {
       var x = document.getElementById("TopNavigation");

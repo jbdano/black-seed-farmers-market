@@ -15,7 +15,7 @@
     <Merchandise/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->
-    <TopNavigation activepage="market"/>
+    <TopNavigation/>
   </div>
 </template>
 
