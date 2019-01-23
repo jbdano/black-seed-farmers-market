@@ -6,7 +6,7 @@
       subtitle="During the month of November to add that special, local something to your Thanksgiving meal."
     />
     <TheOverview/>
-    <SectionTitle title="THE MODEL" lineColor="orange"/>
+    <SectionTitle title="THE MODEL" lineColor="#EFA61E"/>
     <TheModel/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->

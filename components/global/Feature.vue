@@ -40,7 +40,7 @@ export default {
   height: 100%;
   background-image: linear-gradient(
     rgba(255, 0, 0, 0),
-    rgba(118, 53, 104, 0.85)
+    rgba(118, 53, 104, 0.75)
   );
 }
 
@@ -52,8 +52,13 @@ export default {
   color: white;
 }
 
+.fs-title {
+  color: white;
+}
+
 .fs-subtitle {
   margin-bottom: 40px;
   font-weight: normal;
+  color: white;
 }
 </style>

@@ -42,8 +42,12 @@ footer {
   overflow: hidden;
   width: 100%;
   padding: 50px 0;
-  background-color: rgb(118, 53, 104);
-  color: white;
+  background-color: #201311;
+
+  h3,
+  p {
+    color: white;
+  }
 }
 
 .ft-main {
@@ -91,7 +95,7 @@ footer {
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: 35px;
-  color: rgb(118, 53, 104);
+  color: #201311;
 }
 
 .ft-email {
@@ -118,7 +122,7 @@ footer {
   }
 
   i {
-    color: orange;
+    color: #efa61e;
   }
 }
 </style>

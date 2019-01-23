@@ -5,13 +5,13 @@
       title="Market"
       subtitle="Come visit us on your next trip into Worcester."
     />
-    <SectionTitle title="VISIT US" lineColor="rgb(118, 53, 104)"/>
+    <SectionTitle title="VISIT US" lineColor="#201311"/>
     <VisitUs/>
-    <SectionTitle title="MARKET" lineColor="orange"/>
+    <SectionTitle title="MARKET" lineColor="#EFA61E"/>
     <Market/>
-    <SectionTitle title="FEDERAL PROGRAMS" lineColor="rgb(118, 53, 104)"/>
+    <SectionTitle title="FEDERAL PROGRAMS" lineColor="#201311"/>
     <FederalPrograms/>
-    <SectionTitle title="MERCHANDISE" lineColor="orange"/>
+    <SectionTitle title="MERCHANDISE" lineColor="#EFA61E"/>
     <Merchandise/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->

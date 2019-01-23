@@ -71,7 +71,7 @@ export default {
   padding: 40px;
   @media screen and (max-width: 1023px) {
     &:not(:last-child) {
-      border-bottom: 3px dashed rgb(118, 53, 104);
+      border-bottom: 2px dashed #201311;
     }
   }
   @media screen and (min-width: 1024px) {
@@ -79,11 +79,11 @@ export default {
     border: 0;
     &:nth-child(1),
     &:nth-child(2) {
-      border-bottom: 3px dashed rgb(118, 53, 104);
+      border-bottom: 2px dashed #201311;
     }
     &:nth-child(2),
     &:nth-child(4) {
-      border-left: 3px dashed rgb(118, 53, 104);
+      border-left: 2px dashed #201311;
     }
   }
 

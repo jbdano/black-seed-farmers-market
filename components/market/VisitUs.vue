@@ -31,7 +31,7 @@ export default {
 .vu-flexbox {
   display: flex;
   flex-direction: column;
-  border: 5px solid orange;
+  border: 5px solid #efa61e;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -47,7 +47,7 @@ export default {
   position: relative;
   height: 50vw;
   font-weight: 600;
-  background-color: orange;
+  background-color: #efa61e;
   @media screen and (min-width: 768px) {
     height: auto;
   }

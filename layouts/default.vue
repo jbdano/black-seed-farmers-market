@@ -57,6 +57,19 @@ button {
   font-size: calc(17px + (17 - 17) * ((100vw - 350px) / (1600 - 350)));
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p,
+span,
+li,
+a {
+  color: #201311;
+}
+
 a:hover {
   text-decoration-line: underline;
   text-decoration-style: dotted;
@@ -67,7 +80,7 @@ a:hover {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: orange;
+  background-color: #efa61e;
   padding: 15px 50px;
   margin: 30px 0;
   display: inline-block;

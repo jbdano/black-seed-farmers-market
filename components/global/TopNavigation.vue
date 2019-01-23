@@ -3,22 +3,23 @@
     <nuxt-link to="/" class="tn-home-link tn-main-link"></nuxt-link>
     <nuxt-link to="/market" class="tn-market-link tn-main-link">Market</nuxt-link>
     <nuxt-link to="/delivery" class="tn-delivery-link tn-main-link">Delivery</nuxt-link>
-    <nuxt-link to="/membership" class="tn-membership-link tn-main-link">Membership</nuxt-link>
+    <!-- <nuxt-link to="/membership" class="tn-membership-link tn-main-link">Membership</nuxt-link> -->
     <nuxt-link to="/about" class="tn-about-link tn-main-link">About</nuxt-link>
     <nuxt-link to="/contact" class="tn-contact-link tn-main-link">Contact</nuxt-link>
-    <nuxt-link to="/membership" class="tn-become-member-link tn-main-link">Become a Member</nuxt-link>
+    <!-- <nuxt-link to="/membership" class="tn-become-member-link tn-main-link">Become a Member</nuxt-link> -->
     <a href="javascript:void(0);" class="icon tn-main-link" v-on:click="openNav">
       <i class="fa fa-bars"></i>
     </a>
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" v-on:click="closeNav">&times;</a>
+      <nuxt-link to="/" class="tn-market-link">Home</nuxt-link>
       <nuxt-link to="/market" class="tn-market-link">Market</nuxt-link>
       <nuxt-link to="/delivery" class="tn-delivery-link">Delivery</nuxt-link>
-      <nuxt-link to="/membership" class="tn-membership-link">Membership</nuxt-link>
+      <!-- <nuxt-link to="/membership" class="tn-membership-link">Membership</nuxt-link> -->
       <nuxt-link to="/about" class="tn-about-link">About</nuxt-link>
       <nuxt-link to="/contact" class="tn-contact-link">Contact</nuxt-link>
-      <nuxt-link to="/membership" class="tn-become-member-link">Become a Member</nuxt-link>
+      <!-- <nuxt-link to="/membership" class="tn-become-member-link">Become a Member</nuxt-link> -->
     </div>
   </div>
 </template>
@@ -49,7 +50,7 @@ export default {
 <style lang="scss" scoped>
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #201311;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -68,17 +69,17 @@ export default {
 
   &.tn-become-member-link {
     float: right;
-    background-color: orange;
+    background-color: #efa61e;
     font-weight: bold;
   }
 
   &.tn-home-link {
-    background-color: orange;
+    background-color: #efa61e;
     padding: calc(56.8px / 2);
   }
 
-  &.nuxt-link-active {
-    color: orange;
+  &.nuxt-link-exact-active {
+    color: #efa61e;
   }
 
   &.icon {
@@ -152,8 +153,8 @@ export default {
   transition: 0.3s;
   white-space: nowrap;
 
-  &.nuxt-link-active {
-    color: orange;
+  &.nuxt-link-exact-active {
+    color: #efa61e;
   }
 }
 
