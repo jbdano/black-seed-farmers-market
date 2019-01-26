@@ -5,7 +5,11 @@
       title="Visit Us"
       subtitle="During the month of November to add that special, local something to your Thanksgiving meal."
     />
-    <TheOverview/>
+    <Overview>
+      <h3>WHO WE ARE</h3>
+      <p>We have a passion for good food that you can feel good about buying.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque excepturi voluptas asperiores tenetur. Et, quos? Alias eaque illum earum quis ab ea cumque. Vitae nemo quibusdam est cumque quae.</p>
+    </Overview>
     <SectionTitle title="THE MODEL" lineColor="#EFA61E"/>
     <TheModel/>
     <TheFooter/>
@@ -19,7 +23,7 @@ import TopNavigation from "~/components/global/TopNavigation";
 import SectionTitle from "~/components/global/SectionTitle";
 import TheFooter from "~/components/global/TheFooter";
 import Feature from "~/components/global/Feature";
-import TheOverview from "~/components/home/TheOverview";
+import Overview from "~/components/global/Overview";
 import TheModel from "~/components/home/TheModel";
 
 export default {
@@ -27,7 +31,7 @@ export default {
   components: {
     TopNavigation,
     Feature,
-    TheOverview,
+    Overview,
     SectionTitle,
     TheModel,
     TheFooter

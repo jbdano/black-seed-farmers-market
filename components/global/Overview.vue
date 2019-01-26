@@ -6,9 +6,7 @@
         <div class="os-divider"></div>
         <div class="os-content-block">
           <div class="os-content">
-            <h3>WHO WE ARE</h3>
-            <p>We have a passion for good food that you can feel good about buying.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque excepturi voluptas asperiores tenetur. Et, quos? Alias eaque illum earum quis ab ea cumque. Vitae nemo quibusdam est cumque quae.</p>
+            <slot></slot>
           </div>
         </div>
       </div>
@@ -18,7 +16,7 @@
 
 <script>
 export default {
-  name: "TheOverview"
+  name: "Overview"
 };
 </script>
 
