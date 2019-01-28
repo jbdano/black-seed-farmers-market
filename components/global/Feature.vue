@@ -12,9 +12,13 @@
 </template>
 
 <script>
+import LazyView from "~/plugins/LazyView.js";
 export default {
   name: "Feature",
-  props: ["src", "title", "subtitle"]
+  props: ["src", "title", "subtitle"],
+  mounted() {
+    LazyView();
+  }
 };
 </script>
 

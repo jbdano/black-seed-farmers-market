@@ -10,7 +10,7 @@
       <div class="os-flexbox-cards">
         <div class="os-flex-card">
           <header>
-            <h3>Youth Impact</h3>
+            <h3 class="lazy-fade">Youth Impact</h3>
           </header>
           <div class="os-card-body">
             <i class="far fa-user"></i>
@@ -19,7 +19,7 @@
         </div>
         <div class="os-flex-card">
           <header>
-            <h3>Worcester Impact</h3>
+            <h3 class="lazy-fade">Worcester Impact</h3>
           </header>
           <div class="os-card-body">
             <i class="far fa-heart"></i>
@@ -28,7 +28,7 @@
         </div>
         <div class="os-flex-card">
           <header>
-            <h3>Partner Impact</h3>
+            <h3 class="lazy-fade">Partner Impact</h3>
           </header>
           <div class="os-card-body">
             <i class="far fa-handshake"></i>
@@ -41,8 +41,12 @@
 </template>
 
 <script>
+import LazyView from "~/plugins/LazyView.js";
 export default {
-  name: "OurStory"
+  name: "OurStory",
+  mounted() {
+    LazyView();
+  }
 };
 </script>
 

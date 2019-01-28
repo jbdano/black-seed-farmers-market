@@ -4,7 +4,7 @@
       <h5>Black Seed accepts a number of federally-funded programs to help you and your family gain access to nutritious food.</h5>
       <div class="fp-flexbox">
         <article class="fp-card">
-          <p class="fp-card-title">Suppliemental Nutrition Assistance Program (SNAP)</p>
+          <p class="fp-card-title lazy-fade">Suppliemental Nutrition Assistance Program (SNAP)</p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
           <p class="fp-card-desc">
             Provides a monthly benefit to buy nutritious foods to those who meet the financial and nonfinancial requirepemtns.
@@ -14,7 +14,7 @@
           </p>
         </article>
         <article class="fp-card">
-          <p class="fp-card-title">Farmers Market Nutrition
+          <p class="fp-card-title lazy-fade">Farmers Market Nutrition
             <br>Program
           </p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
@@ -26,7 +26,7 @@
           </p>
         </article>
         <article class="fp-card">
-          <p class="fp-card-title">Women, Infants, & Children Nutrition Program (WIC)</p>
+          <p class="fp-card-title lazy-fade">Women, Infants, & Children Nutrition Program (WIC)</p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
           <p class="fp-card-desc">
             Is a nutrition program that provides healthy foods, nutrition education, breatfeeding support, and referrals to healthcare and other services, free of charge, to Massachusetts families who qualify.
@@ -36,7 +36,7 @@
           </p>
         </article>
         <article class="fp-card">
-          <p class="fp-card-title">Healthy Incentives Program
+          <p class="fp-card-title lazy-fade">Healthy Incentives Program
             <br>(HIP)
           </p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
