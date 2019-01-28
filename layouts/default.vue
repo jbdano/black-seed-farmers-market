@@ -86,8 +86,15 @@ a:hover {
   display: inline-block;
   border-radius: 5px;
   font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease-out;
   &:hover {
+    transform: translateY(-5px);
     color: white;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
   }
 }
 </style>
