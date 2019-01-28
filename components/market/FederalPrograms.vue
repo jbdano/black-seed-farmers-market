@@ -14,7 +14,9 @@
           </p>
         </article>
         <article class="fp-card">
-          <p class="fp-card-title">Farmers Market Nutrition Program</p>
+          <p class="fp-card-title">Farmers Market Nutrition
+            <br>Program
+          </p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
           <p class="fp-card-desc">
             Gives seniors and families coupons to buy fresh fruits and vegetables at farmers markets.
@@ -34,7 +36,9 @@
           </p>
         </article>
         <article class="fp-card">
-          <p class="fp-card-title">Healthy Incentives Program (HIP)</p>
+          <p class="fp-card-title">Healthy Incentives Program
+            <br>(HIP)
+          </p>
           <img class="fp-card-img" src="/img/stock-photo-sm.jpeg" alt>
           <p class="fp-card-desc">
             Is a part of SNAP that helps you buy more fruits and vegetables for your household.

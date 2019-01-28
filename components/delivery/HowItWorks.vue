@@ -37,7 +37,12 @@ export default {
 }
 
 .hiw-google-badge {
-  height: 80px;
+  height: 85px;
   width: auto;
+
+  @media screen and (max-width: 767px) {
+    margin-left: -13px;
+    height: 80px;
+  }
 }
 </style>

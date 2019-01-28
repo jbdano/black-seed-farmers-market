@@ -33,12 +33,12 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: "~/static/css/LazyView.css" }],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: "~/plugins/LazyView.js", ssr: false }],
 
   /*
    ** Nuxt.js modules

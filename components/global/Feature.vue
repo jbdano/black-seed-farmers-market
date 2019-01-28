@@ -2,7 +2,7 @@
   <div id="feature-section">
     <img v-bind:src="src" class="fs-feature-img">
     <div class="fs-feature-filter"></div>
-    <div class="fs-content-block">
+    <div class="fs-content-block lazy-fade lazy-fade-left">
       <div class="theme-container">
         <h1 v-text="title" class="fs-title"></h1>
         <h4 v-text="subtitle" class="fs-subtitle"></h4>
