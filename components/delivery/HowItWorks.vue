@@ -8,10 +8,16 @@
         <br>
         <strong>Fallon Health</strong>,10 Chestnut Street Worcester, MA
       </p>
-      <a href="#">
+      <a
+        href="https://itunes.apple.com/it/app/black-seed-farmers-market/id1410205839?mt=8"
+        target="_blank"
+      >
         <img class="hiw-apple-badge" src="/img/apple-badge.svg" alt>
       </a>
-      <a href="#">
+      <a
+        href="https://play.google.com/store/apps/details?id=br.com.ringa.whatsgood.blackseed&hl=en_US"
+        target="_blank"
+      >
         <img class="hiw-google-badge" src="/img/google-play-badge.png" alt>
       </a>
     </div>
