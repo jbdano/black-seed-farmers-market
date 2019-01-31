@@ -43,15 +43,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: "~/plugins/LazyView.js", ssr: false }
-    // {
-    //   src:
-    //     "https://maps.googleapis.com/maps/api/js?key=AIzaSyBDI8NGakLgbE0pm8E7nz9YRSyt79XIEoQ",
-    //   async: true,
-    //   defer: true
-    // }
-  ],
+  plugins: [{ src: "~/plugins/LazyView.js", ssr: false }],
 
   /*
    ** Nuxt.js modules
