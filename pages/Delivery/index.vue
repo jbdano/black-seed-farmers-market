@@ -4,6 +4,7 @@
 
     <SectionTitle title="HOW IT WORKS" lineColor="#201311"/>
     <HowItWorks/>
+    <GoogleMap/>
     <TheFooter/>
     <!-- Put last to resolve z-index sorting -->
     <TopNavigation/>
@@ -16,6 +17,7 @@ import TheFooter from "~/components/global/TheFooter";
 import Feature from "~/components/global/Feature";
 
 import HowItWorks from "~/components/delivery/HowItWorks";
+import GoogleMap from "~/components/delivery/GoogleMap";
 
 export default {
   name: "market",
@@ -24,6 +26,7 @@ export default {
     Feature,
     SectionTitle,
     HowItWorks,
+    GoogleMap,
     TheFooter
   }
 };
