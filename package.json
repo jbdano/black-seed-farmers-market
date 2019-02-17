@@ -1,0 +1,27 @@
+{
+  "name": "black-seed-farmers-market",
+  "version": "1.0.0",
+  "description": "Development site for Black Seed Farmers Market",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css-compressed": "node-sass --include-path scss scss/main.scss build/css/style.min.css --output-style compressed",
+    "build-css-expanded": "node-sass --include-path scss scss/main.scss build/css/style.css --output-style expanded",
+    "build": "npm run build-css-compressed && npm run build-css-expanded",
+    "start": "nodemon -e scss -x \"npm run build\" --ignore build/css --ignore build/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbdano/black-seed-farmers-market.git"
+  },
+  "author": "Julian Dano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbdano/black-seed-farmers-market/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  }
+}
