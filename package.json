@@ -5,10 +5,10 @@
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css-compressed": "node-sass --include-path scss scss/main.scss build/css/style.min.css --output-style compressed",
-    "build-css-expanded": "node-sass --include-path scss scss/main.scss build/css/style.css --output-style expanded",
+    "build-css-compressed": "node-sass --include-path scss public_html/scss/main.scss public_html/css/style.min.css --output-style compressed",
+    "build-css-expanded": "node-sass --include-path scss public_html/scss/main.scss public_html/css/style.css --output-style expanded",
     "build": "npm run build-css-compressed && npm run build-css-expanded",
-    "start": "nodemon -e scss -x \"npm run build\" --ignore build/css --ignore build/js"
+    "start": "nodemon -e scss -x \"npm run build\" --ignore public_html/css --ignore public_html/js"
   },
   "repository": {
     "type": "git",
